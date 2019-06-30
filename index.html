@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-	<input type="checkbox" id="nav-toggle" hidden>
+	<input type="checkbox" id="nav-toggle" hidden><!-- For NavBar -->
 	<!-- NavBar -->
 	<nav class="navigate">
 		<label for="nav-toggle" class="nav-toggle" onclick></label>
@@ -34,22 +34,23 @@
   			</li>
   		</ul>
 	</nav>
-	<!-- End of NavBAr -->
+	<!-- End of NavBar -->
 
 	<!-- Main section -->
-	<div class="container mpx300">
+	<div class="container mpx300" id="container">
 		<div class="row">
 			<div class="col text-center" style="padding-top: 20px;">
 				<a class="navbar-brand pdb0 text-center" style="margin: auto; " href=""><img src="logo-black.svg" alt="logo" id="logo"></a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col text-left pdb">
+			<div class="col text-left pdb center">
 				<h1>Самое читаемое</h1>
 			</div>
 		</div>
 		<div class="row m4">
 			<div class="col-lg-8 col-md-12 col-sm-8 col-12">
+				<!-- Block -->
 				<div class="row">
 					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;" id="block">
 						<div class="row">
@@ -74,6 +75,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- End of Block -->
 			</div>
 			<div class="col-md-12 col-12 d-none-block d-lg-none">
 				<div class="row pdb" id="r3">
@@ -137,7 +139,7 @@
 					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;"  id="block">
 						<div class="row">
 							<div class="col">
-								<a href=""><h4 id="cat">Полезное</h4></a>
+								<h4 id="cat">Полезное</h4>
 							</div>
 						</div>
 						<div class="row">
@@ -193,8 +195,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col text-left pdb">
-				<a href=""><h2>Полезное</h2></a>
+			<div class="col text-left pdb center">
+				<h2>Полезное</h2>
 			</div>
 		</div>
 		<div class="row" id="useless">
@@ -244,7 +246,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col text-left pdb">
+			<div class="col text-left pdb center">
 				<h2>Интересное</h2>
 			</div>
 		</div>
